@@ -82,7 +82,7 @@ while True:
     display_prompt()
     user_input = input().split()
     
-    if user_input:  # Sprawdzenie, czy lista user_input nie jest pusta
+    if user_input: 
         command = user_input[0]
         args = user_input[1:]
 
